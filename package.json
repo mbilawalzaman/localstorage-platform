@@ -3,8 +3,8 @@
   "private": true,
   "packageManager": "pnpm@10.15.1",
   "scripts": {
-    "dev": "pnpm --filter @localstorage-platform/docs dev",
-    "build": "pnpm -r build",
+    "dev": "node init && pnpm --filter @localstorage-platform/docs dev",
+    "build": "node init && pnpm -r build",
     "lint": "pnpm -r lint",
     "test": "pnpm -r test",
     "test:run": "pnpm -r test:run",
