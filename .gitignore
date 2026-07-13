@@ -9,14 +9,12 @@ coverage/
 *.tsbuildinfo
 
 # Environment
-.env
-.env.local
 
 # Editor
-.vscode/
 
 # Logs
 *.log
 
 # Package artifacts
 *.tgz
+config.bat
